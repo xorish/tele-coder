@@ -435,7 +435,7 @@ class Ui_MainWindow(object):
         self.clear_history.clicked.connect(lambda : function.clear_command_hist(self))
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Tele-Coder"))
         self.label.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt;\">&lt;_-\\~Tele - Coder~/-_&gt;</span></p><p align=\"center\">[Developed by Sourish Datta]</p></body></html>"))
         self.code_book_path.setPlaceholderText(_translate("MainWindow", "Paste codebook dir absolute path"))
         self.code_dir_add.setText(_translate("MainWindow", "Add"))
